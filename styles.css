@@ -1,10 +1,16 @@
 /*  your css code here. If applicable */
-.table{
-	backgroundy:yellow;
+.table {
+  background-color: yellow;
+  border: 1px solid black;
+  border-collapse: collapse;
 }
-.table th{
-	border: 1px solid black;
+
+.table th,
+.table td {
+  border: 1px solid black;
+  padding: 8px;
 }
-.table td{
-	border: 1px solid black;
+
+.table tr {
+  border: 1px solid black;
 }
